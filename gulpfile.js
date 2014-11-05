@@ -15,8 +15,9 @@ gulp.task('fileinclude', function() {
 });
 
 gulp.task('html', function() {
-  return gulp.src('src/*.html')
-    .pipe(gulp.dest('dist'));
+  return gulp.src('src/**/*.html')
+    .pipe(gulp.dest('dist'))
+    .pipe(reload());
 });
 
 gulp.task('styles', function() {
@@ -32,8 +33,8 @@ gulp.task('server', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('src/*.html', ['html']);
-  gulp.watch('src/styles/**/*.scss', ['styles']);
+  gulp.watch('src/**/*.html', ['html']);
+  gulp.watch('src/styles/**/*.scss', ['styleswatch'])
 });
 
 // helper function called “reload” that will either return a stream to trigger LiveReload (if LiveReload is available) or simply return a noop stream
