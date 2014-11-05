@@ -1,0 +1,64 @@
+// THUMBNAILS
+//
+/* .row img {
+  height: 300px;
+  width: 300px;
+}
+*/
+
+
+.link-text {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -45px;
+  color: white;
+  text-shadow: black 3px 0px;
+  font-size: 4.5ex;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: 0px;
+}
+
+
+.row div {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 1em;
+}
+.row a {
+  padding: 0px;
+  margin: 0px;
+}
+
+.row img {
+  width: 100%;
+  background:
+}
+
+/*======================*/
+/*====blue tint+hover===*/
+/*======================*/
+.thumbnail:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,90,150, 0.5);
+  transition: all .3s linear;
+}
+.thumbnail:hover:before {
+  background: none;
+}
+
+
+
+@media (min-width: @screen-md-min){
+  .row a {
+    margin-right: 15px;
+  }
+}
