@@ -3,7 +3,7 @@ fileinclude = require('gulp-file-include'),
 sass = require('gulp-sass');
 
 gulp.task('fileinclude', function() {
-  gulp.src(['index.html'])
+  gulp.src(['src/index.html'])
   .pipe(fileinclude({
     prefix: '@@',
     basepath: 'src'
