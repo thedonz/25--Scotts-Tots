@@ -1,3 +1,22 @@
+h4 {
+  text-align: center;
+  color: #2971B0;
+  font-size: 3.5ex;
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+ color: #aaaabc;
+}
+
 img {
-  font-size: 5pc;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-circle {
+  width: 25%;
 }
