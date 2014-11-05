@@ -8,7 +8,7 @@ gulp.task('fileinclude', function() {
     prefix: '@@',
     basepath: 'src'
   }))
-  .pipe(gulp.dest('./dist'));
+  .pipe(gulp.dest('dist'));
 });
 
 
