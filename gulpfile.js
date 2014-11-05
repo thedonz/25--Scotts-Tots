@@ -14,6 +14,10 @@ gulp.task('fileinclude', function() {
   .pipe(reload());
 });
 
+gulp.task('html', function() {
+  return gulp.src('src/*.html')
+    .pipe(gulp.dest('dist'));
+});
 
 gulp.task('styles', function() {
   return gulp.src('src/**/*.scss')
@@ -41,4 +45,5 @@ function reload() {
   return gutil.noop();
 }
 
-gulp.task('default', ['build', 'watch', 'server']);
+gulp.task('build', ['fileinclude', 'styles', 'server']);
+gulp.task('default', ['build', 'watch']);
