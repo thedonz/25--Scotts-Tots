@@ -13,7 +13,7 @@ gulp.task('fileinclude', function() {
 
 
 gulp.task('styles', function() {
-  return gulp.src('src/styles/**/*.scss')
+  return gulp.src('src/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('dist/styles'));
 });
