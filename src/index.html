@@ -1,18 +1,27 @@
-<!doctype>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Surf &amp; Paddle</title>
-</head>
-<body>
-  <html>
-<head>
-  <meta charset="UTF-8">
-  <title>asdf</title>
-</head>
-<body>
+  <head>
+    <title>Surf &amp; Paddle</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  </head>
+  <body>
+  <section class="container">
+    <div class="content row">
+        @@include('./header.html')
+        <!-- @@include('./template.html') -->
+      <section class="main col col-lg-8">
+        @@include('./main.html')
+        @@include('./sidebar.html')
+      </section><!-- main -->
+      <section class="sidebar col col-lg-4">
+        @@include('./thumbnails.html')
+    </div><!-- content -->
+        @@include('./footer.html')
+    </section><!-- container -->
 
-</body>
-</html>
-</body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
