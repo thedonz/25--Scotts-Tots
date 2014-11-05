@@ -24,4 +24,10 @@ gulp.task('server', function() {
     .pipe(webserver());
 });
 
-gulp.task('build', ['fileinclude', 'styles']);
+gulp.task('watch', function() {
+  gulp.watch('src/*.html', ['html']);
+  gulp.watch('src/styles/**/*.scss', ['styles']);
+});
+
+
+gulp.task('build', ['fileinclude', 'styles', 'server']);
