@@ -23,3 +23,5 @@ gulp.task('server', function() {
   return gulp.src('dist')
     .pipe(webserver());
 });
+
+gulp.task('build', ['fileinclude', 'styles']);
