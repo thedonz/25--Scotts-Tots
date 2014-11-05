@@ -1,0 +1,54 @@
+// General
+// ======================================
+
+$black        :#000;
+$blue         :#0084d9;
+$blue-dark    :#0061a0;
+$color-border :#c2c2c2;
+$btn-color    :$blue;
+$white        : #fff;
+
+// Typography
+// ======================================
+$font-sans: Helvetica, Arial, sans-serif;
+$font-base: 16;
+$line-base: 21;
+
+// Typography colors
+// ======================================
+$charcoal      :#2C2C2C;
+$grey          :#706f73;
+$color-text    :#2e282b;
+$color-heading :$white;
+
+// Page grid
+// ======================================
+$gutter      :20px;
+$gutter-half :10px;
+
+// Spacing
+// ======================================
+$spacing: 20;
+$spacing-tiny: $spacing*.25+px;
+$spacing-small:  $spacing*.5+px;
+$spacing-medium: $spacing*.75+px;
+$spacing-default: $spacing+px;
+$spacing-large: $spacing*2+px;
+$spacing-big: $spacing*3+px;
+$spacing-huge: $spacing*4+px;
+
+// Icons
+// ======================================
+$browse: url('../images/icons/icon-browse.png');
+$articles: url('../images/icons/icon-articles.png');
+$videos: url('../images/icons/icon-videos.png');
+$newsletters: url('../images/icons/icon-newsletters.png');
+$contests: url('../images/icons/icon-contests.png');
+
+
+
+// Other
+// ======================================
+$img: '../img';
+$nav-gradient-light: #fefefe;
+$nav-gradient-dark: #d0d0d0;
