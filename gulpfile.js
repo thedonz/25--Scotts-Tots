@@ -11,20 +11,20 @@ gulp.task('fileinclude', function() {
     basepath: 'src'
   }))
   .pipe(gulp.dest('dist'))
-  .pipe(reload());
+  // .pipe(reload());
 });
 
 gulp.task('html', function() {
   return gulp.src('src/**/*.html')
     .pipe(gulp.dest('dist'))
-    .pipe(reload());
+    // .pipe(reload());
 });
 
 gulp.task('styles', function() {
   return gulp.src('src/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('dist/styles'))
-    .pipe(reload());
+    // .pipe(reload());
 });
 
 gulp.task('server', function() {
