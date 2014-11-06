@@ -1,12 +1,13 @@
 // ==========================================================================
 // $Utilities
 // ==========================================================================
-@import "variables/_variables";
-
-
+// @import "variables/_variables";
 
 // ==========================================================================
 // $Modules
 // ==========================================================================
 @import "header/_header.scss";
 @import "main/_main.scss";
+@import "sidebar/_sidebar.scss";
+@import "thumbnails/_thumbnails.scss";
+@import "footer/_footer.scss";
