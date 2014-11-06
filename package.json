@@ -1,0 +1,27 @@
+{
+  "name": "Scotts-Tots",
+  "version": "1.0.0",
+  "description": "Assignment 25 =============== ![Scott’s tots](http://cl.ly/image/34202e05403I/Screen%20Shot%202014-11-03%20at%2010.12.41%20PM.png)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-file-include": "^0.5.1",
+    "gulp-sass": "^1.2.2",
+    "gulp-webserver": "^0.8.7",
+    "gulp-util": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdonze/25--Scotts-Tots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdonze/25--Scotts-Tots/issues"
+  },
+  "homepage": "https://github.com/xdonze/25--Scotts-Tots"
+}
