@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Surf &amp; Paddle</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+  </head>
+  <body>
+
+<!-- @media (min-width: 600px){
+/* Surf and Paddle font gets bigger.  Only font change.
+ * Surf logo moves to upper left and copy is added next to logo.
+ * About and Search move to upper right.
+*/
+}
+
+@media (min-width: 800px) {
+/* Surf and paddle font gets bigger.  Only change.
+*/
+}
+
+@media (max-width: 1024px) {
+/*  Surf and paddle font gets bigger.  Only font change.
+ *  lower margin of background graphic increases.
+*/
+} -->
+
+<!--   <section class="container">
+    <div class="content row"> -->
+        @@include('./header/_header.html')
+     <!--  <section class="main col col-lg-8"> -->
+        @@include('./main/_main.html')
+        @@include('./sidebar/_sidebar.html')
+     <!--  </section> --><!-- main -->
+     <!--  <section class="sidebar col col-lg-4"> -->
+        @@include('./thumbnails/_thumbnails.html')
+    <!-- </div> --><!-- content -->
+        @@include('./footer/_footer.html')
+    <!-- </section> --><!-- container -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
